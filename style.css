@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+#digital-clock{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    height:100vh;
+}
+body{
+    background-image: linear-gradient(#cc2b5e, #753a88);
+    background-repeat:no-repeat;
+}
+
+h1 span{
+    padding:10px 15px;
+    border-radius:10px;
+    text-align:center;
+    font-size:50px;
+    display: inline-block;
+    
+}
+
+h1 #hour{
+    background-color:#e67e22; 
+    margin-bottom:10px;  
+}
+h1 #min{
+    background-color:#e74c3c;
+}
+h1 #sec{
+    background-color:#f1c40f;
+}
+h1 #timept{
+    background-color:#d35400;
+}
+h1 #col{
+    font-size:70px;
+}
+
+
+h2{
+    margin:10px 0px;
+    color:#fff;
+    font-size:50px;
+    background-color:#8e44ad;
+    text-align:center;
+    border-radius:10px;
+    padding:10px;
+    
+
+} 
+
